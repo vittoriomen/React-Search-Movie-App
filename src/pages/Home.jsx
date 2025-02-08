@@ -2,6 +2,7 @@
 
 import MovieCard from "../components/MovieCard";
 import { useState } from "react";
+import "../CSS/Home.css"
 
 function Home(){
 
