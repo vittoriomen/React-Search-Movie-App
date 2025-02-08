@@ -4,13 +4,14 @@ import "./App.css";
 import MovieCard from "./components/MovieCard";
 import Home from "./pages/home";
 import Favorites from "./pages/Favorites";
-
+import Navbar from "./components/Navbar";
 
 function App() {
  
 
   return (
-    
+    <div>
+    <Navbar/>
       <main className="main-content">
 
         <Routes>
@@ -19,7 +20,7 @@ function App() {
         </Routes>
       
       </main>
-
+    </div>
   );
   
 }
