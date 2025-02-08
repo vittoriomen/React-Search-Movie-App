@@ -12,7 +12,7 @@ function MovieCard({movie}){
 
         <div className="movie-poster">
           
-          <img src="{movie.url}" alt="Tim's Film"/>
+          <img src="{movie.url}" alt= {movie.title}/>
 
           <div className="mnovie-overlay">
 
